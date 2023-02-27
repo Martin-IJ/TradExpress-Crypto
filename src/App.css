@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+.navCont {
+  background-image: linear-gradient(to right, #7c1fbf, #470a73);
+  height: 90px;
+}
+.navUp {
+  z-index: 10;
+}
+
+.pageLogo {
+  cursor: pointer;
+}
+
+.navbarrr ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbarrr button {
+  width: 150px;
+  height: 50px;
+}
+
+.navBtn1 {
+  color: white;
+  border: 0.5px solid #ffffff;
+  border-radius: 4px;
+}
+
+.navBtn2 {
+  color: #7c20bf;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.navBtn2:hover,
+.navBtn1:hover {
+  background: #e3e3e3;
+}
+
+.navbarrr {
+  margin: 0 auto;
+}
+
+.navbar-collapse {
+  flex-grow: unset;
+}
+
+#Header {
+  background-image: linear-gradient(to right, #7c1fbf, #470a73);
+  height: calc(100vh - 90px);
+  position: relative;
+}
+
+.headerText {
+  width: 100%;
+  max-width: 600px;
+  color: white;
+  margin: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+  margin-bottom: 6rem;
+  z-index: 10;
+}
+
+.headerText h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.headerText p {
+  font-size: 22px;
+}
+
+.headerText button {
+  width: 304px;
+  height: 50px;
+  background-color: white;
+}
+.headerText button:hover {
+  background-color: rgb(218, 218, 218);
+  color: #7c1fbf;
+}
+
+.play-Store img {
+  cursor: pointer;
+}
+
+.circlee {
+  bottom: 0;
+  right: 200px;
+  width: 650px;
+  height: 650px;
+  box-shadow: 0px 2px 3px #26093a;
+  border: 80px solid #7c20be;
+  opacity: 0.35;
+  filter: blur(0px);
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.circlee1 {
+  bottom: 20px;
+  right: 0px;
+  width: 550px;
+  height: 550px;
+  box-shadow: 0px 2px 3px #26093a;
+  border: 80px solid #7c20be;
+  opacity: 0.35;
+  filter: blur(0px);
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.coinCont {
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+  border-right: 1px solid rgb(140, 140, 140);
+  border-left: 1px solid rgb(140, 140, 140);
+  margin: 10px 0;
+}
+
+.green {
+  color: green;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  background-color: rgba(0, 128, 0, 0.119);
+}
+.red {
+  color: red;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  background-color: rgba(255, 0, 0, 0.148);
+}
+
+.crypto {
+  border: 2px solid rgb(140, 140, 140);
+}
+
+.pageCont {
+  width: 100%;
+  max-width: 1350px;
+  padding: 4rem 0;
+}
+.whyCont {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+.buyCont {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.paymentCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 420px;
+  height: 451px;
+  background: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 7px 8px 15px rgba(200, 200, 200, 0.426);
+}
+
+.paymentCard img {
+  height: 150px;
+}
+
+.paymentCard p {
+  margin-top: 1rem;
+}
+
+.whyCont button {
+  margin-top: 6rem;
+  width: 304px;
+  height: 50px;
+  border: 0.5px solid #000000;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.whyCont button:hover {
+  color: #7c1fbf;
+  border: 0.5px solid #7c1fbf;
+}
+
+
+.buyCont img {
+  width: 445px;
+  height: 400px;
+}
+
+.one {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 39px;
+  height: 39px;
+  background: #7c20bf;
+  border-radius: 4px;
+  box-shadow: 4px 4px 1px #c891ef;
+}
+
+.createAccount button {
+  width: 304px;
+  height: 50px;
+  color: white;
+  background: #7c20bf;
+  opacity: 1;
+}
+.createAccount button:hover {
+  background: #8a4eb5;
+  color: white;
+}
+
+.appStore .text p,
+.playStore .text p {
+  color: #26093a;
+  font-size: 10px;
+}
+.appStore .text h5,
+.playStore .text h5 {
+  color: #26093a;
+  font-size: 18px;
+}
+
+.appStore,
+.playStore {
+  width: 150px;
+  height: auto;
+  padding: 5px;
+  border: 0.5px solid #26093a;
+  border-radius: 4px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.cusColor {
+  background-color: #f2f2f2;
+  padding: 4rem 0;
+}
+
+.customersCont {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.style-quote {
+  background-image: url("./Assets/Union.svg");
+  background-repeat: no-repeat;
+  height: 241px;
+  width: 100%;
+  max-width: 407px;
+}
+
+.quoteBox {
+  margin-top: 20px;
+}
+
+.quote-box{
+  text-align: start;
+  margin-left: 2rem;
+  padding-top: 2rem;
+}
+
+.customerPic {
+  margin-left: 2rem;
+}
+
+.customerPic img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.copyCont {
+  background-color: #e3e3e3;
+}
+
+.footerWrap {
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1091px) {
+  .changeFlex {
+    flex-direction: column-reverse;
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #Header {
+    justify-content: center;
+    text-align: center;
+  }
+  .headerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 3rem;
+  }
+  .circlee {
+    bottom: 200px;
+    width: 650px;
+    height: 650px;
+    border: 80px solid #7c20be;
+  }
+  .circlee1 {
+    bottom: 50px;
+    width: 550px;
+    height: 550px;
+    border: 80px solid #7c20be;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .headerText h1 {
+    font-size: 2rem;
+  }
+  .circlee {
+    width: 450px;
+    height: 450px;
+    right: 120px;
+    bottom: 20px;
+    border: 60px solid #7c20be;
+  }
+  .circlee1 {
+    bottom: 40px;
+    width: 350px;
+    height: 350px;
+    right: -90px;
+    border: 60px solid #7c20be;
+  }
+}
